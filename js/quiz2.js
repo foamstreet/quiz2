@@ -27,7 +27,7 @@
 	$('#goodbye').on('click', function() {
 		$('body').children().fadeOut(400);
 		setTimeout(function(){
-			$('body').html('<h1>GOODBYE!!!!!! SEEYA!</h1>').hide().fadeIn();
+			$('body').html('<h1>GOODBYE!!!!! SEEYA!</h1>').hide().fadeIn();
 		}, 600);
 	});
 
